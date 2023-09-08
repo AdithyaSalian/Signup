@@ -106,3 +106,34 @@ body {
     bottom: 200px;
     right: 50px;
 }
+
+@media screen and (max-width: 767px) {
+    .innerbox {
+        width: 90%; 
+        padding: 15px; 
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+
+    .signup-header h1 {
+        font-size: 2rem; 
+    }
+
+    .signup-header p {
+        font-size: 0.8rem;
+    }
+
+    .signup-body p label {
+        font-size: 1rem; 
+    }
+
+    .signup-body p input {
+        font-size: 1rem; 
+    }
+
+    .signup-footer p {
+        font-size: 0.8rem; 
+    }
+
+    .circle {
+        display: none; 
+    }
+}
